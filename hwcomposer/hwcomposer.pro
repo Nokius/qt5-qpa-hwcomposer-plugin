@@ -31,6 +31,7 @@ HEADERS += hwcomposer_backend_v11.h
 QT += core-private compositor-private gui-private platformsupport-private
 
 DEFINES += QEGL_EXTRA_DEBUG
+DEFINES += QCOM_BSP
 CONFIG += egl qpa/genericunixfontdatabase
 
 CONFIG += link_pkgconfig
